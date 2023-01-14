@@ -1,0 +1,18 @@
+input: .
+output: .retype
+url: wiki.spaceis.pl
+branding:
+  title: SpaceIs
+  label: v4
+links:
+  - text: SpaceIs.pl
+    link: https://spaceis.pl
+  - text: Discord
+    link: https://discord.gg/spacecode
+    target: blank
+favicon: static/favicon.ico
+search:
+  noResultsFoundMsg: Nie znaleziono.
+  placeholder: Szukaj
+footer:
+  copyright: "&copy; 2021-{{ year }} SpaceCode. Wszelkie prawa zastrzeżone."

@@ -1,3 +1,7 @@
+---
+icon: home
+---
+
 # Wstęp
 
 ==- Czym jest SpaceIs?

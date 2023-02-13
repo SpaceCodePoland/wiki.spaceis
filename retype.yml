@@ -24,6 +24,9 @@ snippets:
     - *
 gravatar:
   enabled: true
+edit:
+  repo: "https://github.com/SpaceCodePoland/wiki.spaceis"
+  branch: "main"
 meta:
   title: " | Wiki SpaceIs.pl"
 footer:

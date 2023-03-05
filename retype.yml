@@ -19,15 +19,15 @@ search:
   noResultsFoundMsg: Nie znaleziono wyników.
   placeholder: Szukaj
   mode: full
-snippets:
-  lineNumbers:
-    - *
 gravatar:
   enabled: true
 edit:
   repo: "https://github.com/SpaceCodePoland/wiki.spaceis"
   branch: "main"
+  label: Edytuj na GitHub
 meta:
   title: " | Wiki SpaceIs.pl"
 footer:
   copyright: "&copy; 2021-{{ year }} SPACEHOUSE. Wszelkie prawa zastrzeżone."
+editor:
+  enabled: false # Default is true

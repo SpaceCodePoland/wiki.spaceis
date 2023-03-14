@@ -17,7 +17,7 @@ pomocą przycisku "Otwórz".
 
 ![Lista Dpay](/static/payments/dpay1.png)
 
-Krok 2. Z panelu Dpay wpisujemy Nazwę usługi oraz ash.
+Krok 2. Z panelu Dpay wpisujemy Nazwę usługi oraz hash.
 
 ![Konfiguracja Dpay](/static/payments/dpay2.png)
 

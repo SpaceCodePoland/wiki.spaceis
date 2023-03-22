@@ -1,5 +1,5 @@
 ---
-label: Operatorzy płatności
+label: Dostępni operatorzy płatności
 order: 1
 authors:
 - name: Patryk Vizauer

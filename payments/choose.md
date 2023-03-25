@@ -57,9 +57,18 @@ bezpośrednio z danym operatorem płatności.
 - stawki prowizji ustalane indywidualnie
 - wszystkie najpopularniejsze formy płatności na rynku
 
-[//]: # (### SimPay.pl:)
+### SimPay.pl:
+- SimPay to polski operator płatności internetowych skoncentrowany na bezpieczeństwie, szybkości i prostocie usługi, dzięki której sprawniej rozwiniesz swój biznes.
+- Wspiera wszystkie najpopularniejsze kanały płatności (SMS premium, BLIK, przelewy online, karty płatnicze, PSC, Direct Billing), co ułatwi Twoim klientom przetestowanie i opłacenie Twoich usług.
+- Oferuje możliwość wypłacania większości środków każdego dnia – zupełnie bezpłatnie, w maksymalnie 24 godziny. Zaczniesz zarabiać już kolejnego dnia!
+- Zapewnia szybką rejestrację online, niską wpłatę weryfikacyjną (1 zł) i darmowe utrzymanie konta bez dodatkowych wymogów. Dzięki temu niemal natychmiast zaczniesz czerpać korzyści z Twoich projektów.
+- Gwarantuje prostą integrację z dowolną usługą dzięki API i gotowym bibliotekom przygotowanym pod popularne języki programowania (PHP, Java, TypeScript, Python, Kotlin, Go). Podpięcie płatności do Twojej usługi zajmie tylko chwilę!
+- Ustala stawkę prowizji z klientami indywidualnie, w zależności od generowanego ruchu. Masz świetny plan na biznes? Z nami zarobisz na nim najwięcej!
+- Na koniec każdego okresu rozliczeniowego otrzymasz od SimPay raport wszystkich transakcji. Dzięki temu będziesz mógł jeszcze sprawniej zarządzać swoimi finansami.
+- W każdej chwili czeka na Ciebie nasz support, który rozwieje wątpliwości i rozwiąże Twoje problemy.
+- SimPay to zaufany operator płatności, z którym Twój projekt natychmiast nabierze wiatru w żagle!
 
-[//]: # ()
+
 [//]: # (### HotPay.pl:)
 
 [//]: # ()

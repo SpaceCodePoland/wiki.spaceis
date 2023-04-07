@@ -7,7 +7,7 @@ authors:
 
 ---
 
-[!button target="blank" text="Link do rejestracji w systemie Dpay.pl"](https://panel.dpay.pl/register)
+[!button target="blank" text="Link do rejestracji w systemie Dpay.pl"](https://panel.dpay.pl/register?partner=SPACEHOUSE)
 
 Plusem integracji przez Dpay jest to, że wymagany jest tylko jeden serwis, a w panelu SpaceIs możesz dodać do niego
 płatności Paysafecardem, PayPalem i przelewami.

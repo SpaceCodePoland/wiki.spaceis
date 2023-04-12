@@ -69,7 +69,13 @@ bezpośrednio z danym operatorem płatności.
 - SimPay to zaufany operator płatności, z którym Twój projekt natychmiast nabierze wiatru w żagle!
 
 
-[//]: # (### HotPay.pl:)
+### HotPay.pl:
+- Z racji, że obsługujemy bardzo dużo wydarzeń, które odbywają się "na żywo" dostosowaliśmy naszą infrastrukturę tak, aby system był skalowalny i w pełni oparty o chmurę, co pozwala nam stabilnie obsłużyć największą na rynku ilość transakcji na sekundę.
+- Kanały płatności jakie obsługujemy to blik, szybkie przelewy (pbl), karty płatnicze, paysafecard, paysafecash, Apple i google pay, paypal, sms premium oraz direct billing (popularne SMS+).
+- Wypłaty środków w HotPay można zlecać nawet codziennie, są one oczywiście darmowe. Środki wypłacamy w każdy dzień roboczy, przeważnie rano/do południa. Posiadamy także darmowe zwroty, w przypadku gdyby zaszła konieczność zwrócenia środków klientowi przez przedsiębiorcę.
+- Prowizja dla najpopularniejszych usług czyli blik oraz dla szybkich przelewów wynosi odpowiednio:
+`Dla firm: 0,95%` `Dla osób prywatnych (działalność nierejestrowana): 2,45%`
+w obydwu przypadkach na start przez pierwsze 30 dni prowizja wynosi 0%.
 
 [//]: # ()
 [//]: # (### Paybylink.pl:)

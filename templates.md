@@ -12,9 +12,19 @@ Szablony wymagają instalacji:
 
 Szablon zainstalujesz na:
 
-- dowolnym hostingu WWW, który wspiera PHP 8.1 (np. SeoHost.pl, TitanAxe.com),
+- dowolnym hostingu WWW, który wspiera PHP 8.1 (np. SeoHost.pl, MyDevil.net),
 - serwerze VPS,
 - serwerze dedykowanym.
+
+!!!danger Titanaxe
+Szablony `NIE` będą działać na hostingu WWW TitanAxe. Jest to spowodowane brakiem reakcji supportu jak i samym złym systemie hostingu WWW.
+!!!
+
+!!! Kody promocyjne
+SeoHost.pl - kod rabatowy `spaceis` 30% taniej przy pierwszym roku.
+
+MyDevil.net - kod rabatowy `IC1WTHKVKY` 20% taniej.
+!!!
 
 W przypadku korzystania z nginx należy go odpowiednio skonfigurować:
 

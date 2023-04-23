@@ -23,7 +23,7 @@ Szablony `NIE` będą działać na hostingu WWW TitanAxe. Jest to spowodowane br
 !!! Kody promocyjne
 SeoHost.pl - kod rabatowy `spaceis` 30% taniej przy pierwszym roku.
 
-MyDevil.net - kod rabatowy `IC1WTHKVKY` 20% taniej.
+MyDevil.net - kod rabatowy `spaceis` 20% taniej.
 !!!
 
 W przypadku korzystania z nginx należy go odpowiednio skonfigurować:

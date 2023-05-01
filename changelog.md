@@ -1,4 +1,61 @@
-# v4.0.0
+---
+icon: clock
+---
+
+# Changelog
+
+## v4.0.7 
+
+#### 01.05.2023
+
+1. Dodano obsługę nowych ID usług w bramach SimPay,
+2. Dodano opcję zmiany planu licencji,
+3. Naprawiono problem, kiedy kod rabatowy sprawiał, że wariant kosztował 0 zł (od teraz płatność zostanie oznaczona jako opłacona) – Dotyczy tylko API v4
+4. Obsługa notyfikacji płatności powinna działać szybciej (dotyczy tylko API v4), 
+5. API v3 zostaje oznaczone jako deprecated. Nie będzie otrzymywać żadnych nowych aktualizacji (w tym nowych operatorów płatności). Zachęcamy przejście na API v4 (https://api.spaceis.pl/).
+
+
+## v4.0.6
+
+#### 11.04.2023
+
+1. Dodaliśmy do szczegółowych statystyk zarobek w zeszłym miesiącu oraz zarobek ogólny
+2. Dodaliśmy informację od HotPaya do https://wiki.spaceis.pl/payments/choose/
+
+## v4.0.5 
+
+#### 31.03.2023
+
+1. Skończyliśmy tłumaczenie angielskiego. Od teraz możesz posługiwać się po panelu po angielsku
+
+## v4.0.4
+
+#### 11.02.2023
+
+1. Dodano opcję klonowania serwera (wraz z kategoriami, produktami i wariantami).
+
+## v4.0.3
+
+#### 09.02.2023
+
+1. W liście produktów, kategorii i wariantów dodano przycisk "Powrót".
+2. Dodano w API oraz w panelu dodatkowe pole w serwerach, do wykorzystania w swoich integracjach.
+3. Usunęliśmy lvlup.pro z listy bram płatności.
+
+## v4.0.2
+
+#### 08.02.2023
+
+1. Dodano nowy endpoint w API do "opłacania" zamówień, ustawia transakcję jako opłaconą i wykonuje komendy na serwerze. Link do spec. API: https://api.spaceis.pl/#/Transakcje/zatwierdzaPatnoOrazWykonujeKomendNaSerwerzeUytekNaWasnOdpowiedzialno
+
+## v4.0.1
+
+#### 17.01.2023
+
+1. Zmieniono kolor charta w statystykach z wykorzystanych metod płatności. Kolory są losowane automatycznie, dzięki czemu widać co jest jaką metodą bez tego samego koloru
+2. Zmieniono w kokpicie napis "jest to o x% więcej", który czasem był ujemny na "jest to o x% więcej/mniej"
+
+## v4.0.0
 
 #### 17.01.2023
 

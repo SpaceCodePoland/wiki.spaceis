@@ -7,11 +7,20 @@ authors:
 
 [!button target="blank" text="Link do rejestracji w systemie SimPay"](https://panel.simpay.pl/auth/register)
 
-Krok 1. W panelu SimPay przejdź do "Konto Klienta" - "API". Wprowadź klucz API oraz hasło API w bramie płatności w
-SpaceIs.
+Krok 1. W panelu SimPay przejdź do Direct Billing > Usługi. Wybierz usługę, którą chcesz dodać do SpaceIsa. Wybierz i naciśnij przycisk "Szczegóły".
 
-Krok 2. Przejdź do "Direct Billing" > "Zarządzaj", wybierz interesującą Cię usługę i naciśnij "Szczegóły". Wprowadź w
-panelu SpaceIsa ID usługi oraz Klucz API usługi. Uzupełnij w panelu Simpay adres API na ten, który jest podany w bramie
-płatności w SpaceIsie.
+![Lista usług DirectBilling w SimPay](/static/payments/simpay1.png)
 
-Płatności SimPay są gotowe do działania.
+Krok 2. Wprowadź ID usługi oraz klucz do sygnatury do panelu SpaceIs. Ustaw adres URL IPN na ten, który masz podany w panelu SpaceIs.
+
+![Usługa DirectBilling w SimPay](/static/payments/simpay2.png)
+
+![Konfiguracja w SpaceIs](/static/payments/simpay3.png)
+
+Krok 3. Przejdź do zakładki Konto Klienta > API. Wprowadź Klucz API oraz Hasło API do panelu SpaceIs.
+
+![Dane API w SimPay](/static/payments/simpay4.png)
+
+![Konfiguracja w SpaceIs](/static/payments/simpay5.png)
+
+Gotowe. Płatności Direct Billing SimPay są gotowe do działania.

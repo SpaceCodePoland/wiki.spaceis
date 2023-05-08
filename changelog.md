@@ -4,6 +4,14 @@ icon: clock
 
 # Changelog
 
+## v4.0.8
+
+#### 08.05.2023
+1. Zmieniono przyciski do przechodzenia do kategorii, produktów i wariantów,
+2. Masowe włączanie/wyłączanie promocji na serwer,
+3. Dodano z powrotem weryfikację dwuetapową.
+
+
 ## v4.0.7 
 
 #### 01.05.2023

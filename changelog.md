@@ -4,6 +4,11 @@ icon: clock
 
 # Changelog
 
+## v4.0.9
+
+#### 27.06.2023
+1. Dodano sortowanie wariantów podczas dodawania vouchera.
+
 ## v4.0.8
 
 #### 08.05.2023

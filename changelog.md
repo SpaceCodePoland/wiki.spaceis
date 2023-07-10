@@ -4,6 +4,12 @@ icon: clock
 
 # Changelog
 
+## v4.0.10
+
+#### 10.07.2023
+1. Dodano opcję wykonania ponownie komend (transakcja musi być opłacona).
+
+
 ## v4.0.9
 
 #### 27.06.2023

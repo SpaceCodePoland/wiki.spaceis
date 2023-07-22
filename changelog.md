@@ -4,6 +4,17 @@ icon: clock
 
 # Changelog
 
+## v4.0.12
+
+#### 23.07.2023
+1. Dodanie bezpośredniego PaySafeCarda do operatorów płatności jako pierwszy ItemShop w Polsce
+
+## v4.0.11
+
+#### 16.07.2023
+1. Dodano operatora płatności SkillHost.pl
+
+
 ## v4.0.10
 
 #### 10.07.2023

@@ -12,7 +12,7 @@ links:
     link: https://spacecode.pl
     target: blank
   - text: Discord
-    link: https://discord.gg/spacecode
+    link: https://panel.spaceis.pl/discord
     target: blank
 favicon: static/favicon.ico
 search:

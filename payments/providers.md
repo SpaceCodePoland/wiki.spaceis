@@ -19,7 +19,7 @@ CashBill.pl, Paybylink.pl, HotPay.pl, SimPay.pl, Dpay.pl, MicroSMS.pl, GetPay.pl
 ==- BLIK Level 0 (wpisywanie kodu na stronie szablonu)
 CashBill.pl, Paybylink.pl
 ==- Hostingi
-IceHost
+IceHost, SkillHost
 ==- Inne, z całego świata
 PayPal, Stripe
 ===

@@ -4,10 +4,19 @@ icon: clock
 
 # Changelog
 
+## v4.0.13
+
+#### 25.07.2023
+1. Kody weryfikacji dwuetapowej pokazują również token/sekret.
+2. Po zmianie hasła w panelu następuje automatyczne wylogowanie innych zalogowanych sesji.
+3. Dodano do komend 2 nowe prefiksy: {DISCOUNT_CODE} - użyty kod rabatowy (jeśli nie użyto żadnego, to będzie mieć wartość NONE) i {DISCOUNT_CODE_PERCENTAGE} - % użytego kodu rabatowego.
+
+
 ## v4.0.12
 
 #### 23.07.2023
 1. Dodanie bezpośredniego PaySafeCarda do operatorów płatności jako pierwszy ItemShop w Polsce
+
 
 ## v4.0.11
 

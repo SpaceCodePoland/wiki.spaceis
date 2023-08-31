@@ -71,3 +71,7 @@ chown -R www-data:www-data *
 ## Konfiguracja sklepu
 
 Plik konfiguracyjny sklepu znajduje się w `app/config.php`. Tam znajdują się elementy konfiguracyjne odpowiednio wytłumaczone.
+
+## Instalacja szablonu na SeoHost.pl/jakimkolwiek hostingu opartym na Direct Admin
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Da5_3ot0yNM?si=xziSFQ5BJMRuhbgh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

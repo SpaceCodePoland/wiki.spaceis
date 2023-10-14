@@ -4,6 +4,16 @@ icon: clock
 
 # Changelog
 
+## v4.0.15
+
+#### 14.10.2023
+1. Dodaliśmy obsługę przelewów SimPay.pl 
+
+## v4.0.14
+
+#### 31.08.2023
+1. Dodaliśmy obsługę generowania kodów vouchera przez API (https://api.spaceis.pl/#/Vouchery/generowanieKodwVoucheraokresWanociMiesic)
+
 ## v4.0.13
 
 #### 25.07.2023

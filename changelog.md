@@ -4,6 +4,11 @@ icon: clock
 
 # Changelog
 
+## v4.0.16
+
+#### 27.10.2023
+1. Zmiania informacji DotPay wedle informacji od Przelewy24
+
 ## v4.0.15
 
 #### 14.10.2023

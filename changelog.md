@@ -4,6 +4,16 @@ icon: clock
 
 # Changelog
 
+## v4.0.18
+
+#### 10.12.2023
+1. Dodano operatora https://zen.com/
+
+## v4.0.17
+
+#### 27.11.2023
+1. Dodano operatora płatności TostHost.pl
+
 ## v4.0.16
 
 #### 27.10.2023

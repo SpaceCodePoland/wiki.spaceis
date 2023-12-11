@@ -7,7 +7,7 @@ icon: clock
 ## v4.0.18
 
 #### 10.12.2023
-1. Dodano operatora https://zen.com/
+1. Dodano operatora https://zen.com/ (jako pierwszy ItemShop w Polsce)
 
 ## v4.0.17
 

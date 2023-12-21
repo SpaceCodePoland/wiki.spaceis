@@ -28,7 +28,7 @@ opcjonalnie wybrać interesującą Cię usługę.
 
 ![Ustawienie uprawnień klucza API w SimPay](/static/payments/simpay4new2.png)
 
-Po naciśnięciu przycisku "Utwórz dostęp", skopiuj Klucz oraz Hasło do pól: Klucz API, oraz Hasło API w SpaceIs.
+Po naciśnięciu przycisku "Utwórz dostęp", skopiuj `Hasło` do pola `Hasło API` w SpaceIs.
 
 ![Klucze w SimPay](/static/payments/simpay4new3.png)
 ![Konfiguracja w SpaceIs](/static/payments/simpay5.png)

@@ -4,6 +4,23 @@ icon: clock
 
 # Changelog
 
+## v4.0.21
+
+#### 22.12.2023
+1. Dodano płatności paysafecard i paypal przez SimPay.pl
+2. Usunięto pole "Klucz API" ze wszystkich konfiguracji operatora SimPay
+
+## v4.0.20
+
+#### 15.12.2023
+1. Dodano nowy styl do pay.spaceis. Aby go zmienić przejdź do zarządzania licencją -> pay.spaceis
+2. Zmieniono format opisów przy generowaniu transakcji do operatora płatności - `SpaceIsV4/numeryczne_id_licencji/uuid_transakcji` zostało zamienione na `SpaceIs/short_uuid_licencji/uuid_transakcji`
+
+## v4.0.19
+
+#### 12.12.2023
+1. Przebudowano zakładkę "zarządzanie licencją". Dzięki temu będzie można dodawać więcej elementów konfiguracji, przy zachowaniu czytelności.
+
 ## v4.0.18
 
 #### 10.12.2023

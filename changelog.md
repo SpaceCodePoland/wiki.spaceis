@@ -4,6 +4,21 @@ icon: clock
 
 # Changelog
 
+## Następna aktualizacja
+
+Dokumentacja przygotowana do kolejnego wydania. Data udostępnienia zostanie podana przy publikacji aktualizacji.
+
+1. Nowy [panel zarządzania](/panel) z jasnym i ciemnym motywem.
+2. [Koszyk](/payments/cart) z kilkoma produktami, ilościami i opcją zakupu z różnych serwerów tej samej licencji.
+3. Nowe [skórki strony płatności](/payments/checkout), podgląd wyglądu i linki do dokumentów sklepu.
+4. [Własna domena płatności](/payments/domain) z konfiguracją DNS w panelu.
+5. [Przedziały wariantów](/panel/variants) dostępne w sklepie i API jako osobne opcje zakupu.
+6. [Połączenie konta z Google lub Discordem](/panel/account), z zachowaniem weryfikacji dwuetapowej.
+7. [Webhooki zakupowe Discord](/panel/webhooks) dla licencji, serwera, produktu lub wariantu.
+8. [Transakcje, statystyki i eksport CSV](/panel/statistics) uwzględniające pozycje koszyka.
+9. [Integracja koszyka przez API v4](/api/cart) oraz opis [statusów transakcji](/api/transactions).
+10. [Operator niestandardowy](/payments/custom-operator) dla integracji zatwierdzonych przez SpaceIs.
+
 ## v4.0.21
 
 #### 22.12.2023

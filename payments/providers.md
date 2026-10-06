@@ -23,3 +23,11 @@ IceHost, SkillHost
 ==- Inne, z całego świata
 PayPal, Stripe
 ===
+
+## Operator niestandardowy
+
+Możesz również podłączyć [operatora niestandardowego](/payments/custom-operator), jeśli został zatwierdzony przez SpaceIs. Lista zatwierdzonych operatorów jest widoczna w konfiguracji tej bramy. Adres płatności i sekret integracji otrzymasz od operatora.
+
+## Dostępność metody w sklepie
+
+Dodanie bramy nie wystarcza do jej wyświetlenia przy zakupie. Uzupełnij jej konfigurację i ceny wariantów. W przypadku [koszyka](/payments/cart) wybrana metoda musi być dostępna dla wszystkich pozycji.

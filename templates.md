@@ -72,6 +72,14 @@ chown -R www-data:www-data *
 
 Plik konfiguracyjny sklepu znajduje się w `app/config.php`. Tam znajdują się elementy konfiguracyjne odpowiednio wytłumaczone.
 
+## Nowa strona płatności i koszyk
+
+Wygląd strony płatności ustawisz w [panelu SpaceIs](/payments/checkout). Sama zmiana skórki nie dodaje obsługi koszyka do zainstalowanego szablonu.
+
+Jeżeli rozwijasz własny szablon, skorzystaj z [API koszyka](/api/cart). Do pojedynczych produktów używaj pola `paymentUrl` otrzymanego z API. Link uwzględni aktywną własną domenę płatności. Dotychczasową płatność za pojedynczy wariant możesz zachować.
+
+Przy korzystaniu z przedziałów sprawdź również [obsługę identyfikatorów wariantów](/api/variants).
+
 ## Instalacja szablonu na SeoHost.pl/jakimkolwiek hostingu opartym na Direct Admin
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Da5_3ot0yNM?si=xziSFQ5BJMRuhbgh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

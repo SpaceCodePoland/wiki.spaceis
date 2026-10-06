@@ -99,7 +99,7 @@ Zbiorcze uzupełnienie historii zmian w panelu, sklepie i integracjach płatnoś
 2. Dodano tryb testowy Paymentic oraz opcję ukrycia paysafecard na jego stronie płatności online.
 3. Dodano integrację płatności ChunkServe.pl.
 4. Dodano [operatora niestandardowego](/payments/custom-operator). Dostępne są wyłącznie integracje i domeny zatwierdzone przez SpaceIs.
-5. Zaktualizowano możliwość dodawania starszych bram. Aktualną listę nowych i starszych integracji opisano w [dostępnych operatorach](/payments/providers).
+5. Zaktualizowano listę [dostępnych operatorów płatności](/payments/providers) i obsługiwanych metod.
 6. Doładowania portfela SpaceIs oparto wyłącznie na Paymentic. Dotyczy to portfela właściciela konta, a nie listy metod płatności w jego sklepie.
 7. Poprawiono obsługę potwierdzeń płatności, kwot i komunikatów błędów w integracjach operatorów, w tym Paymentic, CashBill BLIK, SkillHost, HotPay i DPay.
 8. Poprawiono rozliczanie powtórzonych potwierdzeń operatorów, aby zakup lub doładowanie portfela nie były naliczane ponownie.

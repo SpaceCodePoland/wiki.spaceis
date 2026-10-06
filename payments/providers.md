@@ -40,21 +40,6 @@ Brama [Operator niestandardowy](/payments/custom-operator) pozwala połączyć s
 
 Aktualną listę zatwierdzonych operatorów i ich domen znajdziesz w konfiguracji bramy. Opcja dodania tej bramy jest dostępna, gdy SpaceIs udostępnia co najmniej jednego zatwierdzonego operatora.
 
-## Starsze integracje
-
-Poniższych integracji nie można już dodać jako nowej bramy:
-
-| Integracja | Metody |
-| --- | --- |
-| SimPay.pl | Przelewy, paysafecard, PayPal, SMS i Direct Carrier Billing. |
-| Dawne DotPay.pl | Przelewy przez starszą integrację. Nowe bramy Przelewy24 dodaje się osobno. |
-| MicroSMS.pl | Przelewy. Integracja SMS pozostaje na liście nowych bram. |
-| Paybylink.pl | Direct Carrier Billing. Pozostałe dostępne metody wymieniono powyżej. |
-| DPay.pl | Direct Carrier Billing. Pozostałe dostępne metody wymieniono powyżej. |
-| HotPay.pl | Dawna brama Direct Carrier Billing. PremiumRate jest osobną integracją. |
-
-Jeżeli masz już taką bramę, sprawdź jej status w panelu oraz dostępność usługi u operatora przed zmianą konfiguracji.
-
 ## Dostępność metody w sklepie
 
 Po dodaniu bramy uzupełnij dane otrzymane od operatora i wykonaj instrukcje pokazane w jej konfiguracji, w tym ustawienia powiadomień o płatnościach, jeśli są wymagane.

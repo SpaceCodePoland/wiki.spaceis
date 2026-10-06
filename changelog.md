@@ -116,7 +116,7 @@ Dokumentacja przygotowana do kolejnego wydania. Data udostępnienia zostanie pod
 #### 11.04.2023
 
 1. Dodaliśmy do szczegółowych statystyk zarobek w zeszłym miesiącu oraz zarobek ogólny
-2. Dodaliśmy informację od HotPaya do https://wiki.spaceis.pl/payments/choose/
+2. Dodaliśmy informacje od HotPay do dokumentacji płatności.
 
 ## v4.0.5 
 

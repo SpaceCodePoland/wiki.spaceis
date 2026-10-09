@@ -6,11 +6,11 @@ icon: clock
 
 Historia funkcji i poprawek SpaceIs. Wpisy historyczne opisują stan z chwili danego wydania. Aktualną dostępność integracji sprawdzisz na stronie [operatorów płatności](/payments/providers).
 
-## Następna aktualizacja
+## v4.0.23
+
+#### W przygotowaniu
 
 Zmiany przygotowane do kolejnego wydania. Data udostępnienia zostanie podana przy publikacji aktualizacji.
-
-### Koszyk i strona płatności
 
 1. Dodano [koszyk](/payments/cart) pozwalający opłacić kilka produktów i sztuk jednym zamówieniem.
 2. Dodano możliwość łączenia produktów z różnych serwerów tej samej licencji, jeśli właściciel włączy tę opcję.
@@ -21,36 +21,26 @@ Zmiany przygotowane do kolejnego wydania. Data udostępnienia zostanie podana pr
 7. Odświeżono strony statusu płatności oraz podsumowanie zamówienia. Zachowano możliwość powrotu do strony statusu obsługiwanej przez szablon sklepu.
 8. Dotychczasowe linki do pojedynczych produktów otwierają stronę płatności z jedną pozycją. Dodanie koszyka do własnego szablonu wymaga jego osobnej integracji.
 9. Usunięto zapamiętywanie nicku i adresu e-mail kupującego na stronie płatności.
+10. Dodano [własne domeny płatności](/payments/domain), instrukcję ich podłączenia oraz podgląd gotowości domeny i bezpiecznego połączenia.
+11. Dodano opcję automatycznego podłączenia domeny obsługiwanej przez Cloudflare.
+12. Dodano osobne pola na linki do regulaminu i polityki prywatności sklepu.
+13. Dodano możliwość obsługi koszyka w sklepach korzystających z własnej integracji.
+14. Rozszerzono informacje o transakcji o produkty, warianty, ilości i wartości pozycji koszyka.
+15. Uwzględniono koszyki w [statystykach, zestawieniu transakcji i eksporcie CSV](/panel/statistics), a także w rankingach produktów i kupujących.
+16. Dostosowano powiadomienia e-mail i Discord oraz widgety OBS do zakupów koszykowych.
+17. Dodano realizację pozycji koszyka na właściwych serwerach. Problem z jednym serwerem nie zatrzymuje realizacji pozostałych pozycji.
+18. Poprawiono obsługę rabatów procentowych z częścią dziesiętną oraz zakupów o wartości 0 zł po zastosowaniu kodu rabatowego.
+19. Usprawniono odświeżanie statusu transakcji po zmianie jej stanu.
+20. Linki do płatności otwierają zakup pod aktywną własną domeną sklepu.
+21. Oznaczono nowe opcje strony płatności znacznikiem **BETA** i uzupełniono ich tłumaczenia.
+22. Usunięto stary panel. Zarządzanie sklepem odbywa się w nowym [panelu SpaceIs](/panel).
+23. Usunięto dawną usługę hostowania sklepów w SpaceIs. Szablony instalowane na własnym hostingu nadal działają.
+24. Uzupełniono Wiki o instrukcje panelu, koszyka, domen i wariantów oraz zaktualizowano listę operatorów płatności.
+25. Odświeżono kokpit i wszystkie widoki statystyk, poprawiając wygląd kart, wykresów, rankingów i filtrów w obu motywach oraz na telefonach.
 
-### Domeny i dokumenty sklepu
+## v4.0.22
 
-1. Dodano [własne domeny płatności](/payments/domain), instrukcje DNS oraz podgląd stanu domeny i certyfikatu HTTPS.
-2. Dodano opcjonalny konfigurator rekordu DNS dla domen obsługiwanych przez Cloudflare.
-3. Dodano osobne pola na linki do regulaminu i polityki prywatności sklepu.
-
-### Transakcje, statystyki i API
-
-1. Dodano [API koszyka](/api/cart): tworzenie linku do strony płatności i rozpoczynanie płatności za wiele pozycji.
-2. Rozszerzono [informacje o transakcji](/api/transactions) o pozycje koszyka, ilości oraz ceny jednostkowe i wartości pozycji.
-3. Uwzględniono koszyki w [statystykach, zestawieniu transakcji i eksporcie CSV](/panel/statistics), a także w rankingach produktów i kupujących.
-4. Dostosowano powiadomienia e-mail, webhooki Discord i widgety OBS do zakupów koszykowych.
-5. Dodano realizację pozycji koszyka na właściwych serwerach. Problem z jednym serwerem nie zatrzymuje realizacji pozostałych pozycji.
-6. Poprawiono obsługę rabatów procentowych z częścią dziesiętną oraz zakupów o wartości 0 zł po zastosowaniu kodu rabatowego.
-7. Usprawniono odświeżanie statusu transakcji po zmianie jej stanu.
-8. Zachowano dotychczasowy sposób zakupu pojedynczych wariantów przez API. Linki `paymentUrl` uwzględniają aktywną własną domenę płatności.
-
-### Panel i zgodność
-
-1. Oznaczono nowe opcje strony płatności znacznikiem **BETA** i uzupełniono ich tłumaczenia.
-2. Usunięto stary panel. Zarządzanie sklepem odbywa się w nowym [panelu SpaceIs](/panel).
-3. Usunięto dawną usługę hostowania sklepów w SpaceIs (SaaS). Szablony instalowane na własnym hostingu nadal korzystają z API SpaceIs.
-4. Uzupełniono Wiki o instrukcje panelu, koszyka, domen, wariantów i API. Zaktualizowano listę operatorów oraz usunięto nieaktualny poradnik porównawczy.
-
-## Zmiany po v4.0.21
-
-Zbiorcze uzupełnienie historii zmian w panelu, sklepie i integracjach płatności.
-
-### Panel i nawigacja
+Nowy panel oraz rozbudowane zarządzanie sklepem i płatnościami.
 
 1. Wprowadzono nowy [panel zarządzania](/panel) z jasnym i ciemnym motywem oraz układem dostosowanym do telefonów.
 2. Odświeżono karty licencji, serwerów, kategorii, produktów i wariantów, a także portfel, szablony i zgłoszenia pomocy.
@@ -60,72 +50,54 @@ Zbiorcze uzupełnienie historii zmian w panelu, sklepie i integracjach płatnoś
 6. Dodano centrum powiadomień o sprzedaży, błędach płatności i zbliżającym się końcu licencji.
 7. Uzupełniono polskie i angielskie tłumaczenia oraz poprawiono wyświetlanie dat, kwot i liczb.
 8. Poprawiono zmianę kolejności elementów katalogu oraz wygląd stron błędów i przerwy technicznej.
-
-### Konto i dostęp do sklepu
-
-1. Dodano [logowanie i łączenie kont z Google oraz Discordem](/panel/account).
-2. Połączenie z istniejącym kontem wymaga zalogowania do SpaceIs i potwierdzenia w ustawieniach. Zgodny adres e-mail nie łączy kont automatycznie.
-3. Rozszerzono weryfikację dwuetapową o kody e-mail oraz klucze sprzętowe i passkeys. Logowanie przez Google lub Discord nadal uwzględnia włączone 2FA.
-4. Uproszczono rejestrację, odświeżono logowanie i odzyskiwanie hasła oraz poprawiono konfigurację metod 2FA.
-5. Uporządkowano uprawnienia subkont oraz dostęp do danych wybranej licencji.
-6. Dodano dziennik zmian licencji, pozwalający właścicielowi przeglądać działania wykonane w sklepie.
-7. Poprawiono obsługę anulowanego lub wygasłego logowania przez Google i Discord.
-
-### Produkty, warianty i promocje
-
-1. Dodano [przedziały wariantów](/panel/variants) z początkiem, końcem, krokiem, ceną jednostkową oraz szablonami nazwy i komend.
-2. Dodano zniżkę podstawową, progi promocyjne i podgląd cen dla przedziałów. Poszczególne wartości są dostępne w sklepie i API jako osobne warianty.
-3. Zachowano publiczne identyfikatory UUID wariantów przedziałowych oraz możliwość zakupu przez dotychczasowe integracje.
-4. Dodano masową zmianę cen wariantów produktu oraz kopiowanie cen z istniejącej bramy przy dodawaniu nowej.
-5. Dodano promocje z datą rozpoczęcia i zakończenia.
-6. Dodano limity użyć i termin ważności kodów rabatowych.
-7. Dodano dzienne limity zakupów produktu dla gracza oraz podgląd sklepu z panelu.
-8. Dodano możliwość czasowego blokowania nicków i adresów e-mail na czarnej liście.
-
-### Statystyki i powiadomienia
-
-1. Rozbudowano statystyki o przegląd sprzedaży, zestawienia produktów, metod płatności i klientów oraz filtrowanie według serwera i okresu.
-2. Odświeżono wykresy, legendy i podpowiedzi z wartościami w jasnym i ciemnym motywie.
-3. Dodano mapę aktywności zakupów według dnia tygodnia i godziny oraz lejek pokazujący wejścia na stronę płatności, rozpoczęte płatności i opłacone transakcje.
-4. Rozbudowano podgląd transakcji i eksport CSV. Poprawiono wcześniejsze eksporty transakcji do arkusza.
-5. Dodano opcjonalny codzienny raport sprzedaży wysyłany e-mailem.
-6. Dodano osobną sekcję [webhooków Discord](/panel/webhooks) dla całej licencji, serwera, produktu lub wariantu, z własną treścią, tytułem i kolorem powiadomienia.
-7. Dodano możliwość włączania i wyłączania webhooków z listy oraz wybór celu powiadomień w formularzu.
-8. Ujednolicono wygląd wiadomości systemowych i dodano e-mailowe potwierdzenia zakupu licencji oraz szablonów.
-
-### Operatorzy płatności i portfel
-
-1. Dodano integracje Paymentic dla płatności online, paysafecard i Direct Carrier Billing.
-2. Dodano tryb testowy Paymentic oraz opcję ukrycia paysafecard na jego stronie płatności online.
-3. Dodano integrację płatności ChunkServe.pl.
-4. Dodano [operatora niestandardowego](/payments/custom-operator). Dostępne są wyłącznie integracje i domeny zatwierdzone przez SpaceIs.
-5. Zaktualizowano listę [dostępnych operatorów płatności](/payments/providers) i obsługiwanych metod.
-6. Doładowania portfela SpaceIs oparto wyłącznie na Paymentic. Dotyczy to portfela właściciela konta, a nie listy metod płatności w jego sklepie.
-7. Poprawiono obsługę potwierdzeń płatności, kwot i komunikatów błędów w integracjach operatorów, w tym Paymentic, CashBill BLIK, SkillHost, HotPay i DPay.
-8. Poprawiono rozliczanie powtórzonych potwierdzeń operatorów, aby zakup lub doładowanie portfela nie były naliczane ponownie.
-9. Poprawiono obsługę płatności o wartości 0 zł po rabacie oraz sytuacji, gdy na stronie płatności nie ma dostępnych metod.
-
-### API, plugin i niezawodność
-
-1. Zachowano obsługę dotychczasowych zakupów pojedynczych wariantów oraz zgodny format oferty w API v4.
-2. Zakończono obsługę starego pluginu korzystającego z API v3. Do połączenia serwera gry należy używać aktualnego [pluginu SpaceIs](/plugin) z API v4.
-3. Poprawiono uwzględnianie promocji, kodów rabatowych i limitów zakupów w API.
-4. Usprawniono obsługę błędów dostarczania zakupów na serwer gry.
-5. Ujednolicono sprawdzanie dostępu do panelu, licencji i funkcji subkont oraz ochronę danych zwracanych przez API.
+9. Dodano [logowanie i łączenie kont z Google oraz Discordem](/panel/account).
+10. Połączenie z istniejącym kontem wymaga zalogowania do SpaceIs i potwierdzenia w ustawieniach. Zgodny adres e-mail nie łączy kont automatycznie.
+11. Dodano kody e-mail, klucze sprzętowe i klucze dostępu do weryfikacji dwuetapowej. Działa ona także przy logowaniu przez Google i Discord.
+12. Uproszczono rejestrację, odświeżono logowanie i odzyskiwanie hasła oraz poprawiono konfigurację weryfikacji dwuetapowej.
+13. Uporządkowano uprawnienia subkont oraz dostęp do danych wybranej licencji.
+14. Dodano dziennik zmian licencji, pozwalający właścicielowi przeglądać działania wykonane w sklepie.
+15. Poprawiono obsługę anulowanego lub wygasłego logowania przez Google i Discord.
+16. Dodano [przedziały wariantów](/panel/variants) z początkiem, końcem, krokiem, ceną jednostkową oraz szablonami nazwy i komend.
+17. Dodano zniżkę podstawową, progi promocyjne i podgląd cen dla przedziałów. Kupujący widzi poszczególne wartości jako osobne warianty.
+18. Dodano masową zmianę cen wariantów produktu oraz kopiowanie cen z istniejącej bramy przy dodawaniu nowej.
+19. Dodano promocje z datą rozpoczęcia i zakończenia.
+20. Dodano limity użyć i termin ważności kodów rabatowych.
+21. Dodano dzienne limity zakupów produktu dla gracza oraz podgląd sklepu z panelu.
+22. Dodano możliwość czasowego blokowania nicków i adresów e-mail na czarnej liście.
+23. Rozbudowano statystyki o przegląd sprzedaży, zestawienia produktów, metod płatności i klientów oraz filtrowanie według serwera i okresu.
+24. Odświeżono wykresy, legendy i podpowiedzi z wartościami w jasnym i ciemnym motywie.
+25. Dodano mapę aktywności zakupów według dnia tygodnia i godziny oraz lejek pokazujący wejścia na stronę płatności, rozpoczęte płatności i opłacone transakcje.
+26. Rozbudowano podgląd transakcji i eksport CSV. Poprawiono wcześniejsze eksporty transakcji do arkusza.
+27. Dodano opcjonalny codzienny raport sprzedaży wysyłany e-mailem.
+28. Dodano osobną sekcję [powiadomień Discord](/panel/webhooks) dla całej licencji, serwera, produktu lub wariantu, z własną treścią, tytułem i kolorem wiadomości.
+29. Dodano możliwość włączania i wyłączania powiadomień Discord z listy oraz wyboru, których zakupów dotyczą.
+30. Ujednolicono wygląd wiadomości systemowych i dodano e-mailowe potwierdzenia zakupu licencji oraz szablonów.
+31. Dodano płatności Paymentic: online, paysafecard oraz doliczane do rachunku telefonu.
+32. Dodano tryb testowy Paymentic oraz opcję ukrycia paysafecard na jego stronie płatności online.
+33. Dodano integrację płatności ChunkServe.pl.
+34. Dodano [operatora niestandardowego](/payments/custom-operator). Dostępne są wyłącznie integracje i domeny zatwierdzone przez SpaceIs.
+35. Zaktualizowano listę [dostępnych operatorów płatności](/payments/providers) i obsługiwanych metod.
+36. Doładowania portfela SpaceIs oparto wyłącznie na Paymentic. Dotyczy to portfela właściciela konta, a nie listy metod płatności w jego sklepie.
+37. Poprawiono obsługę potwierdzeń płatności, kwot i komunikatów błędów w integracjach operatorów, w tym Paymentic, CashBill BLIK, SkillHost, HotPay i DPay.
+38. Poprawiono obsługę płatności, które mogły powodować podwójne naliczenie zakupu lub doładowania portfela.
+39. Poprawiono obsługę płatności o wartości 0 zł po rabacie oraz sytuacji, gdy na stronie płatności nie ma dostępnych metod.
+40. Zakończono obsługę starego pluginu. Do połączenia serwera gry należy używać aktualnego [pluginu SpaceIs](/plugin).
+41. Poprawiono uwzględnianie promocji, kodów rabatowych i limitów podczas zakupów.
+42. Usprawniono obsługę błędów dostarczania zakupów na serwer gry.
 
 ## v4.0.21
 
 #### 22.12.2023
 
 1. Dodano płatności paysafecard i PayPal przez SimPay.pl.
-2. Usunięto pole „Klucz API” z konfiguracji operatora SimPay.
+2. Uproszczono konfigurację operatora SimPay.
 
 ## v4.0.20
 
 #### 15.12.2023
 
 1. Dodano nowy styl strony płatności pay.spaceis.pl.
-2. Ujednolicono opisy transakcji wysyłane do operatorów płatności.
+2. Ujednolicono opisy zakupów widoczne podczas płatności.
 
 ## v4.0.19
 
@@ -161,15 +133,15 @@ Zbiorcze uzupełnienie historii zmian w panelu, sklepie i integracjach płatnoś
 
 #### 31.08.2023
 
-1. Dodano generowanie kodów voucherów przez API z miesięcznym okresem ważności.
+1. Dodano generowanie voucherów ważnych przez wybraną liczbę miesięcy.
 
 ## v4.0.13
 
 #### 25.07.2023
 
-1. Uzupełniono konfigurację weryfikacji dwuetapowej o klucz do ręcznego dodania konta w aplikacji uwierzytelniającej.
+1. Dodano możliwość ręcznego połączenia aplikacji uwierzytelniającej z kontem.
 2. Po zmianie hasła pozostałe zalogowane sesje są automatycznie wylogowywane.
-3. Dodano aliasy komend `{DISCOUNT_CODE}` i `{DISCOUNT_CODE_PERCENTAGE}`. Pierwszy zawiera użyty kod rabatowy lub `NONE`, a drugi wartość procentową rabatu.
+3. Dodano możliwość wykorzystania kodu rabatowego i wysokości zniżki w komendach realizujących zakup.
 
 ## v4.0.12
 
@@ -207,11 +179,10 @@ Zbiorcze uzupełnienie historii zmian w panelu, sklepie i integracjach płatnoś
 
 #### 01.05.2023
 
-1. Dodano obsługę nowych identyfikatorów usług SimPay.
+1. Zaktualizowano konfigurację płatności SimPay.
 2. Dodano możliwość zmiany planu licencji.
-3. Poprawiono obsługę wariantu o wartości 0 zł po zastosowaniu kodu rabatowego w API v4. Taki zakup jest oznaczany jako opłacony.
-4. Usprawniono obsługę powiadomień operatorów płatności w API v4.
-5. Oznaczono API v3 jako wersję bez dalszego rozwoju i wskazano API v4 jako wersję do nowych integracji.
+3. Poprawiono realizację zakupów, których wartość po użyciu kodu rabatowego wynosi 0 zł.
+4. Usprawniono potwierdzanie płatności przez operatorów.
 
 ## v4.0.6
 
@@ -237,14 +208,14 @@ Zbiorcze uzupełnienie historii zmian w panelu, sklepie i integracjach płatnoś
 #### 09.02.2023
 
 1. Dodano przycisk „Powrót” na listach produktów, kategorii i wariantów.
-2. Dodano dodatkowe pole serwera dostępne w panelu i API, przeznaczone do własnych integracji.
+2. Dodano dodatkowe pole w ustawieniach serwera do wykorzystania we własnym sklepie.
 3. Usunięto lvlup.pro z listy bram płatności.
 
 ## v4.0.2
 
 #### 08.02.2023
 
-1. Dodano endpoint API do zatwierdzania płatności i wykonywania komend powiązanych z zamówieniem.
+1. Dodano możliwość zatwierdzania płatności we własnych integracjach sklepu.
 
 ## v4.0.1
 
@@ -282,6 +253,6 @@ Pozostałe zmiany:
 7. Rozszerzono raporty PDF o dodatkowe dane.
 8. Dodano ustawianie prowizji dla bram oraz prezentację kwot po prowizji w transakcjach i statystykach.
 9. Dodano vouchery z limitem użyć, terminem ważności oraz losowaniem wariantu.
-10. Zaktualizowano [plugin SpaceIs](/plugin) i udostępniono jego kod źródłowy. Usprawniono sprawdzanie obecności gracza.
+10. Zaktualizowano [plugin SpaceIs](/plugin) i poprawiono sprawdzanie obecności gracza na serwerze.
 11. Dodano widgety OBS, czarną listę nicków i adresów e-mail, dzienne nagrody oraz cele serwerów.
-12. Przeniesiono konta z v3 wraz z serwerami, kategoriami, produktami i wariantami. Zachowano obsługę API v3 bez nowych metod SMS Premium i BLIK Level 0.
+12. Przeniesiono konta z poprzedniej wersji SpaceIs wraz z serwerami, kategoriami, produktami i wariantami.

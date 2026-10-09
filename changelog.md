@@ -8,9 +8,7 @@ Historia funkcji i poprawek SpaceIs. Wpisy historyczne opisują stan z chwili da
 
 ## v4.0.23
 
-#### W przygotowaniu
-
-Zmiany przygotowane do kolejnego wydania. Data udostępnienia zostanie podana przy publikacji aktualizacji.
+#### 09.10.2026
 
 1. Dodano [koszyk](/payments/cart) pozwalający opłacić kilka produktów i sztuk jednym zamówieniem.
 2. Dodano możliwość łączenia produktów z różnych serwerów tej samej licencji, jeśli właściciel włączy tę opcję.

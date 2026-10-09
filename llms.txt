@@ -1,0 +1,54 @@
+﻿#  | Wiki SpaceIs.pl
+
+> SpaceIs umożliwia prowadzenie sklepu internetowego dla serwera Minecraft. W panelu zarządzasz produktami, płatnościami i realizacją zakupów na serwerze gry.
+
+- [Wstęp](https://wiki.spaceis.pl/index.md): Wstęp
+- [Korzystanie z panelu](https://wiki.spaceis.pl/panel/index.md): Panel jest dostępny pod adresem panel.spaceis.pl. Po zalogowaniu wybierz licencję sklepu, którym chcesz zarządzać.
+- [Dokumentacja API](https://wiki.spaceis.pl/api/index.md): API v4 pozwala połączyć własny sklep ze SpaceIs. W tej sekcji znajdziesz zasady integracji oraz przykłady obsługi wariantów i koszyka. Pełna lista endpointów jest dostępna pod adresem api.spaceis.pl.
+- [Changelog](https://wiki.spaceis.pl/changelog.md): Historia funkcji i poprawek SpaceIs. Wpisy historyczne opisują stan z chwili danego wydania. Aktualną dostępność integracji sprawdzisz na stronie operatorów płatności.
+- [Instalacja szablonów](https://wiki.spaceis.pl/templates.md): Szablony wymagają instalacji:
+- [Konfiguracja pluginu](https://wiki.spaceis.pl/plugin.md): Pobieramy plugin z tej strony i wgrywamy go na serwer. Po wgraniu należy zrestartować serwer.
+
+## Panel SpaceIs
+
+- [Przedziały wariantów](https://wiki.spaceis.pl/panel/variants.md): Przedział pozwala przygotować wiele wartości produktu w jednym formularzu, np. pakiety od 10 do 100 monet co 10. Kupujący widzi poszczególne wartości jako osobne warianty.
+- [Konto i dostęp do licencji](https://wiki.spaceis.pl/panel/account.md): Krok 1. Zaloguj się dotychczasową metodą i otwórz Ustawienia konta.
+- [Transakcje i statystyki](https://wiki.spaceis.pl/panel/statistics.md): Dane dotyczą licencji wybranej w menu. Dostęp do transakcji i statystyk może być ograniczony przez uprawnienia subkonta.
+- [Powiadomienia Discord](https://wiki.spaceis.pl/panel/webhooks.md): Webhooki zakupowe wysyłają informacje o zakupach do wybranego kanału Discord. Możesz ustawić powiadomienia ogólne lub ograniczyć je do konkretnego serwera, produktu albo wariantu.
+
+## API v4
+
+- [Produkty i warianty](https://wiki.spaceis.pl/api/variants.md): Każdy wariant ma własny identyfikator i listę dostępnych cen. Dotyczy to również wartości utworzonych przez przedział wariantów.
+- [Koszyk i płatności](https://wiki.spaceis.pl/api/cart.md): Koszyk pozwala kupić kilka wariantów w jednej płatności. Możesz przekierować kupującego do strony SpaceIs albo rozpocząć płatność z własnego formularza. Oba endpointy wymagają autoryzacji kluczem licencji.
+- [Status transakcji](https://wiki.spaceis.pl/api/transactions.md): Status odczytasz na podstawie transactionId otrzymanego przy rozpoczęciu płatności. Użyj klucza API tej samej licencji.
+
+## Płatności
+
+- [Strona płatności](https://wiki.spaceis.pl/payments/checkout.md): Strona płatności pokazuje zamówienie, zbiera dane kupującego i pozwala wybrać metodę płatności. Obsługuje zakup pojedynczego produktu oraz koszyk.
+- [Własna domena płatności](https://wiki.spaceis.pl/payments/domain.md): Możesz udostępnić stronę płatności pod własnym adresem, np. pay.sklep.example. Potrzebujesz domeny, do której masz prawa, oraz dostępu do jej rekordów DNS.
+- [Koszyk](https://wiki.spaceis.pl/payments/cart.md): Koszyk pozwala opłacić kilka produktów jednym zamówieniem. Kupujący wybiera produkty w sklepie, a na stronie płatności sprawdza pozycje, warianty i ilości oraz wybiera metodę płatności.
+- [Operator niestandardowy](https://wiki.spaceis.pl/payments/custom-operator.md): Ta brama pozwala połączyć sklep z zewnętrznym serwisem zatwierdzonym przez SpaceIs, np. hostingiem przyjmującym płatność z portfela. Operator udostępnia dane integracji, obsługuje płatność na swojej stronie i przekazuje jej wynik do SpaceIs.
+- [Dostępni operatorzy płatności](https://wiki.spaceis.pl/payments/providers.md): Poniżej znajdziesz integracje dostępne przy dodawaniu nowej bramy w SpaceIs. Wybierz licencję i przejdź do Płatności > Bramy płatności > Nowa brama. Ten sam operator może mieć osobne bramy dla różnych metod.
+
+### Konfiguracja CashBill
+
+- [Konfiguracja płatności CashBill Przelewy/PaySafeCard](https://wiki.spaceis.pl/payments/cashbill/online.md): Krok 1. Z panelu CashBill wybieramy interesujący nas punkt płatności (Płatności > Lista). Wybieramy za pomocą zębatki podkreślonej niebieskim kolorem na poniższym zdjęciu.
+- [Konfiguracja płatności CashBill SMS](https://wiki.spaceis.pl/payments/cashbill/sms.md): Krok 1. W panelu CashBill przechodzimy w Usługi > SMS/MMS > Lista i wybieramy interesującą nas usługę SMS. W panelu SpaceIs wpisujemy treść SMS, numer SMS oraz kwotę danego numeru (Dostępny w panelu CashBill > SMS/MMS > Nowa Usługa).
+
+### Konfiguracja Dpay.pl
+
+- [Konfiguracja płatności Dpay Przelewy/PaySafeCard/PayPal](https://wiki.spaceis.pl/payments/dpay/online.md): Plusem integracji przez Dpay jest to, że wymagany jest tylko jeden serwis, a w panelu SpaceIs możesz dodać do niego płatności Paysafecardem, PayPalem i przelewami.
+
+### Konfiguracja HotPay
+
+- [Konfiguracja płatności HotPay Przelewy/PaySafeCard](https://wiki.spaceis.pl/payments/hotpay/online.md): Krok 1. W panelu HotPay przejdź do "PRZELEWY ONLINE I BLIK" bądź "PAYSAFECARD" - Lista sklepów - Wybierz interesującą Cię usługę klikając ikonę "+".
+
+### Konfiguracja Paybylink
+
+- [Konfiguracja płatności Paybylink Direct Carrier Billing](https://wiki.spaceis.pl/payments/paybylink/dcb.md): Krok 1. W panelu Paybylink przejdź do Direct Carrier Billing > Usługi DCB, i wprowadź login, hasło, hash oraz ID użytkownika do panelu SpaceIs.
+- [Konfiguracja płatności Paybylink PaySafeCard](https://wiki.spaceis.pl/payments/paybylink/paysafecard.md): Krok 1. W panelu Paybylink przejdź do PaySafeCard > Sklepy, i wprowadź ID sklepu, ID użytkownika oraz Hash do panelu SpaceIs.
+- [Konfiguracja płatności Paybylink przelewy](https://wiki.spaceis.pl/payments/paybylink/online.md): Krok 1. W panelu Paybylink przejdź do Przelewy internetowe > Sklepy > Zarządzanie (ikona klucza), i wprowadź ID sklepu oraz Hash do panelu SpaceIs, oraz ustaw kodowanie na sha256.
+
+### Konfiguracja SimPay
+
+- [Konfiguracja płatności SimPay Direct Carrier Billing](https://wiki.spaceis.pl/payments/simpay/dcb.md): Krok 1. W panelu SimPay przejdź do Direct Billing > Usługi. Wybierz usługę, którą chcesz dodać do SpaceIsa. Wybierz i naciśnij przycisk "Szczegóły".

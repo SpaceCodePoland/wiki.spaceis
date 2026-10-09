@@ -1,8 +1,5 @@
 ---
 label: Konfiguracja płatności Paybylink Direct Carrier Billing
-authors:
-- name: Patryk Vizauer
-  email: patryk@spacecode.pl
 ---
 
 [!button target="blank" text="Link do rejestracji w systemie Paybylink"](https://paybylink.pl/user/access/invite/763f94c341b8e5e76b0c2c972b1643f4/)

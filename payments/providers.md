@@ -1,9 +1,6 @@
 ---
 label: Dostępni operatorzy płatności
 order: 1
-authors:
-- name: Patryk Vizauer
-  email: patryk@spacecode.pl
 ---
 
 # Dostępni operatorzy płatności

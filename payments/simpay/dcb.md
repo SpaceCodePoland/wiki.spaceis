@@ -1,8 +1,5 @@
 ---
 label: Konfiguracja płatności SimPay Direct Carrier Billing
-authors:
-  - name: Patryk Vizauer
-    email: patryk@spacecode.pl
 ---
 
 [!button target="blank" text="Link do rejestracji w systemie SimPay"](https://panel.simpay.pl/auth/register)

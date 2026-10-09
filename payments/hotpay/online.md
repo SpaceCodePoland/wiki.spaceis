@@ -1,8 +1,5 @@
 ---
 label: Konfiguracja płatności HotPay Przelewy/PaySafeCard
-authors:
-- name: Patryk Vizauer
-  email: patryk@spacecode.pl
 ---
 
 [!button target="blank" text="Link do rejestracji w systemie HotPay"](https://hotpay.pl/?phash=czcxbVJCUVloYnJLMWU1RVJKTFoyZXlLSkllZUJiVStvUVIwQ2xKTmw2dz0,)

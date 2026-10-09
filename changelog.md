@@ -35,6 +35,7 @@ Historia funkcji i poprawek SpaceIs. Wpisy historyczne opisują stan z chwili da
 23. Usunięto dawną usługę hostowania sklepów w SpaceIs. Szablony instalowane na własnym hostingu nadal działają.
 24. Uzupełniono Wiki o instrukcje panelu, koszyka, domen i wariantów oraz zaktualizowano listę operatorów płatności.
 25. Odświeżono kokpit i wszystkie widoki statystyk, poprawiając wygląd kart, wykresów, rankingów i filtrów w obu motywach oraz na telefonach.
+26. Poprawiono wyświetlanie nazw produktów i wariantów z suwaka w historii ostatnich zakupów.
 
 ## v4.0.22
 
